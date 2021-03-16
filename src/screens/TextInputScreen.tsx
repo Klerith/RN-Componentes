@@ -46,7 +46,7 @@ export const TextInputScreen = () => {
 
                         <View style={ stylesScreen.switchRow }>
                             <Text style={ stylesScreen.switchText }>Suscribirse:</Text>
-                            <CustomSwitch isOn={ isSubscribed } onChange={ (value:any) => onChange( value, 'isSubscribed' ) } />
+                            <CustomSwitch isOn={ isSubscribed } onChange={ ( value ) => onChange( value, 'isSubscribed' ) } />
                         </View>
 
                         <HeaderTitle title={ JSON.stringify( form, null, 3 ) } />
